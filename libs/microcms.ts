@@ -20,7 +20,7 @@ export async function getArticles(queries?: MicroCMSQueries) {
         revalidate: 0,
       },
     },
-    endpoint: "articles",
+    endpoint: "muscle-blog",
     queries,
   });
   return articles;
@@ -37,7 +37,7 @@ export async function getArticlesDetail(
         revalidate: 0,
       },
     },
-    endpoint: "articles",
+    endpoint: "muscle-blog",
     contentId,
     queries,
   });
